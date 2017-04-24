@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TIP Line</string>
+    <string name="text_tip">Text Tip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tip_call">Tip Call</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_audio_tip">Audio Tip</string>
+
+    <string name="tip_subject">Subject</string>
+    <string name="tip_message">Message</string>
+    <string name="phone_num_file">nums.json</string>
+    <string name="phone_num_temp_file">nums.tmp</string>
+</resources>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/background_light"
+    android:fillViewport="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/long_logo"
+        android:layout_marginTop="0dp"
+        android:id="@+id/imageView3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7"
+            android:gravity="center_horizontal|top">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal|top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginTop="45dp"
+                    android:gravity="center_horizontal|top"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/buttonTipText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/tabLayout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_border"
+                        android:text="Send Text"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buttonTipVoice"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/tabLayout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:text="Send Audio"
+                        android:textColor="#000000"
+                        android:background="@drawable/button_border"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buttonTipCamera"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/tabLayout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_border"
+                        android:text="Send Image/Video"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/buttonTipCall"
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_below="@+id/tabLayout"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_border"
+                        android:text="Emergency Call"
+                        android:drawableTop="@mipmap/phone1"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15">
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
